@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Noir Bistro - Fine Dining Experience</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Landing Page -->
+    <div class="landing-page" id="landingPage">
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="landing-content">
+            <h1 class="hero-title">Noir Bistro</h1>
+            <p class="hero-subtitle">Culinary Excellence Redefined</p>
+            <p class="hero-description">
+                Experience the pinnacle of fine dining where culinary artistry meets sophisticated ambiance. 
+                Our master chefs craft extraordinary dishes using the finest ingredients, creating an unforgettable gastronomic journey.
+            </p>
+            <a href="#" class="cta-button" onclick="showMenu()">Explore Our Menu</a>
+        </div>
+    </div>
+
+    <!-- Menu Page -->
+    <div class="menu-page" id="menuPage">
+        <div class="menu-background-overlay"></div>
+        
+        <nav class="menu-nav">
+            <div class="nav-content">
+                <div class="logo">Noir Bistro</div>
+                <a href="#" class="back-button" onclick="showLanding()">← Back to Home</a>
+            </div>
+        </nav>
+
+        <div class="floating-menu-elements">
+            <div class="floating-circle"></div>
+            <div class="floating-circle"></div>
+            <div class="floating-circle"></div>
+        </div>
+
+        <div class="container">
+            <header class="menu-header">
+                <h1 class="menu-title">Our Menu</h1>
+                <p class="menu-subtitle">Curated Selection of Culinary Masterpieces</p>
+            </header>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterMenu('all')">All</button>
+                <button class="filter-btn" onclick="filterMenu('appetizers')">Appetizers</button>
+                <button class="filter-btn" onclick="filterMenu('mains')">Main Courses</button>
+                <button class="filter-btn" onclick="filterMenu('desserts')">Desserts</button>
+                <button class="filter-btn" onclick="filterMenu('beverages')">Beverages</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
