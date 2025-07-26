@@ -126,8 +126,8 @@ The website embodies luxury and sophistication through:
 ## 📖 Usage Instructions
 
 ### Basic Setup
-1. Download the HTML file
-2. Open in web browser
+1. Create files and folders according to given file structure below
+2. Open the project in VS Code Run it
 3. No additional setup required
 
 ### Development
