@@ -2,7 +2,8 @@
 
 A premium, dark-themed restaurant website featuring an immersive landing page and interactive menu filtering system. Built with modern web technologies for a sophisticated dining experience.
 
-![Noir Bistro Preview](https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/851ff207-db88-46d4-82a2-3240fc3a6a5c" />
+
 
 ## 🌟 Features
 
