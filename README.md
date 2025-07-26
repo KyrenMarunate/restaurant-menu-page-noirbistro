@@ -113,8 +113,8 @@ The website embodies luxury and sophistication through:
 ## 🌐 Deployment
 
 ### Simple Deployment
-1. Save as `index.html`
-2. Upload to any web server
+1. Create a project file of any name
+2. Push the code to a hosting platform (e.g., GitHub Pages)
 3. No build process required
 
 ### Recommended Hosting
